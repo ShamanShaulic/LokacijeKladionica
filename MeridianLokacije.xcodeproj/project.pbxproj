@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84F8C911FB30342002325F1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F8C901FB30342002325F1 /* Place.swift */; };
+		D84F8C951FB3529A002325F1 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F8C941FB3529A002325F1 /* SearchCell.swift */; };
+		D866EDE71FBDEBEC00D6A0F1 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D866EDE61FBDEBEC00D6A0F1 /* AnnotationView.swift */; };
 		D8CD07941FB1F65300009975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD07931FB1F65300009975 /* AppDelegate.swift */; };
-		D8CD07961FB1F65300009975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD07951FB1F65300009975 /* ViewController.swift */; };
 		D8CD07991FB1F65300009975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CD07971FB1F65300009975 /* Main.storyboard */; };
 		D8CD079B1FB1F65300009975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CD079A1FB1F65300009975 /* Assets.xcassets */; };
 		D8CD079E1FB1F65300009975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CD079C1FB1F65300009975 /* LaunchScreen.storyboard */; };
+		D8CD07A61FB1F69D00009975 /* AlternateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD07A51FB1F69D00009975 /* AlternateView.swift */; };
+		D8CD07A81FB1FF4200009975 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD07A71FB1FF4200009975 /* SearchVC.swift */; };
+		D8CD07AA1FB2109100009975 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD07A91FB2109100009975 /* Constants.swift */; };
+		D8E1DC391FBC332A003899F1 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1DC381FBC332A003899F1 /* Details.swift */; };
+		D8E1DC3C1FBC340D003899F1 /* CallAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E1DC3B1FBC340D003899F1 /* CallAPI.swift */; };
+		D8E1DC401FBC94FB003899F1 /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E1DC3F1FBC94FB003899F1 /* AnnotationView.xib */; };
+		FB8B7C2C58CFF8A4AB0D870A /* Pods_MeridianLokacije.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99D08D560CC2BE732483626 /* Pods_MeridianLokacije.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD82CC7172A6596649D6C12 /* Pods-MeridianLokacije.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeridianLokacije.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeridianLokacije/Pods-MeridianLokacije.debug.xcconfig"; sourceTree = "<group>"; };
+		A99D08D560CC2BE732483626 /* Pods_MeridianLokacije.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeridianLokacije.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2BC50174A58F0DD052FDC9 /* Pods-MeridianLokacije.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeridianLokacije.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeridianLokacije/Pods-MeridianLokacije.release.xcconfig"; sourceTree = "<group>"; };
+		D803D7B51FBDB5D000488383 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D84F8C901FB30342002325F1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		D84F8C941FB3529A002325F1 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		D866EDE61FBDEBEC00D6A0F1 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		D8CD07901FB1F65300009975 /* MeridianLokacije.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeridianLokacije.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CD07931FB1F65300009975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8CD07951FB1F65300009975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8CD07981FB1F65300009975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8CD079A1FB1F65300009975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8CD079D1FB1F65300009975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8CD079F1FB1F65300009975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CD07A51FB1F69D00009975 /* AlternateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateView.swift; sourceTree = "<group>"; };
+		D8CD07A71FB1FF4200009975 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		D8CD07A91FB2109100009975 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D8E1DC381FBC332A003899F1 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		D8E1DC3B1FBC340D003899F1 /* CallAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAPI.swift; sourceTree = "<group>"; };
+		D8E1DC3F1FBC94FB003899F1 /* AnnotationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AnnotationView.xib; path = MeridianLokacije/View/AnnotationView.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8B7C2C58CFF8A4AB0D870A /* Pods_MeridianLokacije.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17060A23D66275BB25AA3A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD82CC7172A6596649D6C12 /* Pods-MeridianLokacije.debug.xcconfig */,
+				CE2BC50174A58F0DD052FDC9 /* Pods-MeridianLokacije.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23871A9DF567C19EE53CF571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D803D7B51FBDB5D000488383 /* MapKit.framework */,
+				A99D08D560CC2BE732483626 /* Pods_MeridianLokacije.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D84F8C8C1FB30127002325F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84F8C901FB30342002325F1 /* Place.swift */,
+				D8E1DC381FBC332A003899F1 /* Details.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D84F8C8D1FB3012E002325F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D84F8C941FB3529A002325F1 /* SearchCell.swift */,
+				D8CD07A51FB1F69D00009975 /* AlternateView.swift */,
+				D8CD07971FB1F65300009975 /* Main.storyboard */,
+				D8CD079A1FB1F65300009975 /* Assets.xcassets */,
+				D8CD079C1FB1F65300009975 /* LaunchScreen.storyboard */,
+				D8E1DC3F1FBC94FB003899F1 /* AnnotationView.xib */,
+				D866EDE61FBDEBEC00D6A0F1 /* AnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D84F8C8E1FB30133002325F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD07A71FB1FF4200009975 /* SearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D84F8C8F1FB30143002325F1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD07A91FB2109100009975 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		D8CD07871FB1F65300009975 = {
 			isa = PBXGroup;
 			children = (
 				D8CD07921FB1F65300009975 /* MeridianLokacije */,
 				D8CD07911FB1F65300009975 /* Products */,
+				17060A23D66275BB25AA3A95 /* Pods */,
+				23871A9DF567C19EE53CF571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,23 @@
 		D8CD07921FB1F65300009975 /* MeridianLokacije */ = {
 			isa = PBXGroup;
 			children = (
+				D84F8C8F1FB30143002325F1 /* Constants */,
+				D8E1DC3A1FBC33E1003899F1 /* Helper */,
+				D84F8C8C1FB30127002325F1 /* Model */,
+				D84F8C8D1FB3012E002325F1 /* View */,
+				D84F8C8E1FB30133002325F1 /* Controller */,
 				D8CD07931FB1F65300009975 /* AppDelegate.swift */,
-				D8CD07951FB1F65300009975 /* ViewController.swift */,
-				D8CD07971FB1F65300009975 /* Main.storyboard */,
-				D8CD079A1FB1F65300009975 /* Assets.xcassets */,
-				D8CD079C1FB1F65300009975 /* LaunchScreen.storyboard */,
 				D8CD079F1FB1F65300009975 /* Info.plist */,
 			);
 			path = MeridianLokacije;
+			sourceTree = "<group>";
+		};
+		D8E1DC3A1FBC33E1003899F1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D8E1DC3B1FBC340D003899F1 /* CallAPI.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8CD07A21FB1F65300009975 /* Build configuration list for PBXNativeTarget "MeridianLokacije" */;
 			buildPhases = (
+				431B785134F8DA0C0742D370 /* [CP] Check Pods Manifest.lock */,
 				D8CD078C1FB1F65300009975 /* Sources */,
 				D8CD078D1FB1F65300009975 /* Frameworks */,
 				D8CD078E1FB1F65300009975 /* Resources */,
+				5E758898BC426B47A0947717 /* [CP] Embed Pods Frameworks */,
+				9538650F14C6EA27207A3EB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +189,7 @@
 				TargetAttributes = {
 					D8CD078F1FB1F65300009975 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,18 +220,80 @@
 				D8CD079E1FB1F65300009975 /* LaunchScreen.storyboard in Resources */,
 				D8CD079B1FB1F65300009975 /* Assets.xcassets in Resources */,
 				D8CD07991FB1F65300009975 /* Main.storyboard in Resources */,
+				D8E1DC401FBC94FB003899F1 /* AnnotationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		431B785134F8DA0C0742D370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeridianLokacije-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E758898BC426B47A0947717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeridianLokacije/Pods-MeridianLokacije-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeridianLokacije/Pods-MeridianLokacije-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9538650F14C6EA27207A3EB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeridianLokacije/Pods-MeridianLokacije-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8CD078C1FB1F65300009975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CD07961FB1F65300009975 /* ViewController.swift in Sources */,
+				D8CD07A81FB1FF4200009975 /* SearchVC.swift in Sources */,
+				D84F8C951FB3529A002325F1 /* SearchCell.swift in Sources */,
+				D8CD07A61FB1F69D00009975 /* AlternateView.swift in Sources */,
 				D8CD07941FB1F65300009975 /* AppDelegate.swift in Sources */,
+				D8E1DC391FBC332A003899F1 /* Details.swift in Sources */,
+				D866EDE71FBDEBEC00D6A0F1 /* AnnotationView.swift in Sources */,
+				D8CD07AA1FB2109100009975 /* Constants.swift in Sources */,
+				D84F8C911FB30342002325F1 /* Place.swift in Sources */,
+				D8E1DC3C1FBC340D003899F1 /* CallAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +428,19 @@
 		};
 		D8CD07A31FB1F65300009975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD82CC7172A6596649D6C12 /* Pods-MeridianLokacije.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR6TVTB234;
 				INFOPLIST_FILE = MeridianLokacije/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SabelnikN.MeridianLokacije;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeridianLokacije/View/MeridianLokacije-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +448,18 @@
 		};
 		D8CD07A41FB1F65300009975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2BC50174A58F0DD052FDC9 /* Pods-MeridianLokacije.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR6TVTB234;
 				INFOPLIST_FILE = MeridianLokacije/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SabelnikN.MeridianLokacije;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeridianLokacije/View/MeridianLokacije-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
